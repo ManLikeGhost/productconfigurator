@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kolker+Brush&family=Noto+Sans+JP:wght@700&display=swap');
+
+.App {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+.configurator {
+  position: fixed;
+  right: 24px;
+  width: 320px;
+  bottom: 25vh;
+  color: white;
+  padding: 16px;
+  font-family: 'Black Ops One', system-ui;
+  font-family: 'Kolker Brush', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.config_section_title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Black Ops One', system-ui;
+  font-family: 'Kolker Brush', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+}
+
+.config_section_values {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.item {
+  transition: .4s opacity;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.item_dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border: solid 2px #999999;
+}
+
+.item.item--active .item_dot {
+  border: solid 2px white;
+}
+
+.item_label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: grey;
+  transition: .4s color;
+  text-transform: capitalize;
+}
+
+.item.item_active .item_label {
+  color: white;
+}
