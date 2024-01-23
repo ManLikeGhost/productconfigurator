@@ -7,6 +7,18 @@ export const chairColors = [
     name: "brown",
   },
   {
+    color: "#1a5e1a",
+    name: "green",
+  },
+  {
+    color: "#659994",
+    name: "blue",
+  },
+  {
+    color: "#896599",
+    name: "mauve",
+  },
+  {
     color: "#ffa500",
     name: "orange",
   },
@@ -14,6 +26,10 @@ export const chairColors = [
   {
     color: "#222222",
     name: "black",
+  },
+  {
+    color: "#59555b",
+    name: "grey",
   },
   {
     color: "#ececec",
@@ -27,6 +43,18 @@ export const cushionColors = [
     name: "brown",
   },
   {
+    color: "#1a5e1a",
+    name: "green",
+  },
+  {
+    color: "#659994",
+    name: "blue",
+  },
+  {
+    color: "#896599",
+    name: "mauve",
+  },
+  {
     color: "#ffa500",
     name: "orange",
   },
@@ -34,6 +62,10 @@ export const cushionColors = [
   {
     color: "#222222",
     name: "black",
+  },
+  {
+    color: "#59555b",
+    name: "grey",
   },
   {
     color: "#ececec",

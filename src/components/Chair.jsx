@@ -11,14 +11,14 @@ const Chair = (props) => {
 	const { material, legs, chairColor, cushionColor } = useCustomization();
 	const { nodes, materials } = useGLTF('./models/chair.gltf');
 	const marbleTextureProps = useTexture({
-		map: './textures/cushion/Marble_Red_004_basecolor.jpg',
+		// map: './textures/cushion/Marble_Red_004_basecolor.jpg',
 		normalMap: './textures/cushion/Marble_Red_004_normal.jpg',
 		roughnessMap: './textures/cushion/Marble_Red_004_roughness.jpg',
 		aoMap: './textures/cushion/Marble_Red_004_ambientOcclusion.jpg',
 	});
 
 	const larvaTextureProps = useTexture({
-		map: './textures/fabric/Lava_006_basecolor.jpg',
+		// map: './textures/fabric/Lava_006_basecolor.jpg',
 		normalMap: './textures/fabric/Lava_006_normal.jpg',
 		roughnessMap: './textures/fabric/Lava_006_roughness.jpg',
 		aoMap: './textures/fabric/Lava_006_ambientOcclusion.jpg',
