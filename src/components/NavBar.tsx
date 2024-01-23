@@ -1,7 +1,3 @@
-import React from 'react'
-
-// type Props = {}
-
 const NavBar = () => {
   return (
     <div className='flex justify-between'>

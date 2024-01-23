@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import React, { createContext, useContext, useState } from 'react'
+import  { createContext, useContext, useState } from 'react'
 
 export const chairColors = [
   {
