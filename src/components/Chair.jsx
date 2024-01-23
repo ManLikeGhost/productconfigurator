@@ -5,7 +5,7 @@ Command: npx gltfjsx@6.2.16 public/models/chair.gltf
 
 import React from 'react';
 import { useGLTF, useTexture } from '@react-three/drei';
-import { useCustomization } from '../contexts/Cutomization.tsx';
+import { useCustomization } from '../contexts/Cutomization.jsx';
 
 const Chair = (props) => {
 	const { material, legs, chairColor, cushionColor } = useCustomization();
